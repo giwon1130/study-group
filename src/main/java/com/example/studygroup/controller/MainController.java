@@ -15,9 +15,6 @@ import java.util.Optional;
 public class MainController {
 
 
-    // 테스트
-    private final UserService userService;
-
     @GetMapping("/")
     public String getAllUsers() {
         return "index";
