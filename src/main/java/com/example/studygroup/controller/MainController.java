@@ -14,7 +14,6 @@ import java.util.Optional;
 @RequestMapping("/test")
 public class MainController {
 
-
     @GetMapping("/")
     public String getAllUsers() {
         return "index";
